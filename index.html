@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEME SWITCHER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body cz-shortcut-listen="true" style="background-color: rgb(200, 226, 241);">
+        <div class="centerIt">
+            <h1 id="title" style="color: rgb(0, 0, 0);">Sophisticated Theme Switch</h1>
+            <br>
+            <div class="roundedFullBox" id="fullBox" onclick="switchThat()" style="background-color: rgb(19, 99, 223);">
+                <div class="roundSwitch" id="switch" style="transform: translate(0px); background-color: white;"></div>
+                <div class="arc arc1" id="arc1" style="transform: translate(0px) rotateY(0deg); background-color: rgb(223, 246, 255);"></div>
+                <div class="arc arc2" id="arc2" style="transform: translate(0px) rotateY(0deg); background-color: rgb(71, 181, 255);"></div>
+                <div class="arc arc3" id="arc3" style="transform: translate(0px) rotateY(0deg); z-index: 0; background-color: rgb(19, 99, 223);"></div>
+                <div class="cloudsAndSun" id="cloudsAndStuff" style="transform: translateX(0px);">
+                    <div class="sun" id="sun" style="transform: translateY(0px);"></div>
+                    <div class="moon" id="moon" style="transform: translateY(-30px) translateX(0px);"></div>
+                    <div class="cloudCircle1 clouds cloudColor" style="background-color: rgb(244, 244, 244);"></div>
+                    <div class="cloudCircle2 clouds cloudColor" style="background-color: rgb(244, 244, 244);"></div>
+                    <div class="cloudCircle3 clouds cloudColor" style="background-color: rgb(244, 244, 244);"></div>
+                    <div class="cloudCircle4 clouds cloudColor" style="background-color: rgb(244, 244, 244);"></div>
+                    <div class="cloudPlane cloudColor" style="background-color: rgb(244, 244, 244);"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js" async="" defer=""></script>
+    
+</body>
+</body>
+</html>
